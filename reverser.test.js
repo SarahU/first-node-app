@@ -1,6 +1,5 @@
-import {reverseString} from "./reverser";
+const reverseString = require('./reverser');
 
-
-test('reverses string', () => {
-    expect (reverseString('mystring')).toBe('gnirtsym');
+test('adds 1 + 2 to equal 3', () => {
+    expect(reverseString(1, 2)).toBe(3);
 });

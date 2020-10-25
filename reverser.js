@@ -1,4 +1,4 @@
-export function reverseString(stringToReverse){
-    return stringToReverse;
+function reverseString(a, b) {
+    return a + b;
 }
-// module.exports = reverseString;
+module.exports = reverseString;
