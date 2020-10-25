@@ -1,15 +1,12 @@
 function reverseString(stringToReverse) {
     let stack = [];
 
-    for (let i = 0; i < stringToReverse.length; i++){
-        stack.push(stringToReverse[i]);
-    }
+    const characters = Array.from(stringToReverse);
+    characters.map(x => stack.push(x));
 
     let reversedString = '';
-    for (let i = 0; i < stringToReverse.length; i++){
-        let character = stack.pop();
-        reversedString += character;
-    }
+    stack.reverse();
+    stack.map(x => reversedString+= x);
 
     return reversedString;
 }
