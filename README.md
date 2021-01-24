@@ -2,10 +2,14 @@
 
 A small app that reverses a string
 
-Run:
+## Installation
 
-npm run
+```bash
+npm install
+```
 
-Test:
+## Running the tests
 
-npm run test
+```bash
+npm test
+```
